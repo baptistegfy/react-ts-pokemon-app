@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Baptiste-Gfy.github.io/ReactTs-pokemon-app"
   "name": "react-pokemons-app",
   "version": "1.0.0",
   "description": "An awesome application to handle some pokemons.",
@@ -15,6 +16,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build"
   },
   "eslintConfig": {
@@ -31,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
