@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/PokemonCard.css"],"names":[],"mappings":"AAAA,YACE,wBAAyB,CACzB,YACF","file":"main.5078a26a.chunk.css","sourcesContent":[".horizontal {\n  border: solid 4px #F5F5F5;\n  height: 200px;\n}\n"]}
