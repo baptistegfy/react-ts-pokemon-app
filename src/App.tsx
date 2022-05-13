@@ -22,6 +22,7 @@ const App: FunctionComponent = () => {
         
         <Switch>
           <Route exact path='/' component={PokemonList} />
+          <Route exact path='/react-ts-pokemon-app/' component={PokemonList} />
           <Route exact path='/pokemons' component={PokemonList} />
           <Route path='/pokemons/:id' component={PokemonsDetail} />
           {/* toujours a la fin */}
